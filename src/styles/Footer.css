@@ -1,0 +1,65 @@
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-nav {
+  margin-top: 10px;
+}
+
+.footer-nav a {
+  color: #ddd;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.footer-nav a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Social media links styling */
+.social-links {
+  margin-bottom: 15px;
+}
+
+.social-links a {
+  color: #ddd;
+  font-size: 24px;
+  margin: 0 15px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #fff;
+}
+
+/* Specific colors for each social media platform (optional) */
+.social-links a .fa-instagram:hover {
+  color: #C13584;
+}
+
+.social-links a .fa-facebook:hover {
+  color: #3b5998;
+}
+
+.social-links a .fa-x-twitter:hover {
+  color: #1DA1F2;
+}
+
+.social-links a .fa-tiktok:hover {
+  color: #69C9D0;
+}
+
+.social-icon-x {
+  width: 20px;
+  height: 1em;
+  display: inline-block;
+  vertical-align: middle;
+}

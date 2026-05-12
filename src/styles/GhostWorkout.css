@@ -1,0 +1,231 @@
+/* Styling for the Home component */
+.home-container {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  background: url('../assets/futuristic_duel_at_dawn.png') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.home-content {
+    flex: 1;
+}
+
+.cashgeo-title-image {
+  display: block;
+  margin: 40px auto 20px; /* top margin, horizontal center, bottom margin */
+  max-width: 90%;
+  height: auto;
+}
+
+.overlay {
+    flex: 0;
+    display: flex;
+    flex-direction: column;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent overlay */
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin: 120px auto 20px auto;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.tagline {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: #ff8c00;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.cta-button:hover {
+  background-color: #ffa733;
+  transform: scale(1.1);
+}
+
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.gear-icon {
+  position: fixed;
+  top: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+  width: 100px; /* Adjust size */
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+}
+
+.gear-icon.rotated {
+  transform: rotate(180deg);
+}
+
+.app-download-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.app-download-container h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.app-store-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.store-badge {
+  height: 48px;
+  transition: transform 0.2s ease;
+}
+
+.store-badge:hover {
+  transform: scale(1.05);
+}
+
+.app-features {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.feature {
+  flex: 1;
+  min-width: 150px;
+  margin: 0.5rem;
+}
+
+.feature-icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.cta-text {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
+}
+
+/* App download section styling */
+.app-download-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  color: #333; /* Dark text color for better contrast */
+}
+
+.app-headline {
+  color: #222;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.app-description {
+  color: #444;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.app-store-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.store-badge {
+  height: 48px;
+  transition: transform 0.2s ease;
+}
+
+.store-badge:hover {
+  transform: scale(1.05);
+}
+
+.app-features {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.feature {
+  flex: 1;
+  min-width: 150px;
+  margin: 0.5rem;
+  color: #333;
+}
+
+.feature-icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.feature-text {
+  color: #444;
+  font-weight: 500;
+}
+
+.cta-text {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
+  color: #222;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .app-store-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .app-headline {
+    font-size: 1.5rem;
+  }
+}
