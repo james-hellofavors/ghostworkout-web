@@ -24,8 +24,11 @@ const GhostWorkoutPrivacy: React.FC = () => {
                 <p className="text-gray-700 mb-4">
                   Hello Favors, LLC ("we," "us," or "our") respects your privacy and is committed to protecting your personal data. This Privacy Policy explains how we collect, use, store, and protect your information when you use Ghost Workout ("Service"), including our website at ghostworkout.com and our mobile application.
                 </p>
-                <p className="text-gray-700">
+                <p className="text-gray-700 mb-4">
                   Please read this Privacy Policy carefully. By using the Service, you consent to the practices described here.
+                </p>
+                <p className="text-gray-700">
+                  Ghost Workout is currently intended for users in the United States. We may update this Privacy Policy if we expand availability to additional jurisdictions.
                 </p>
               </section>
 
@@ -200,17 +203,15 @@ const GhostWorkoutPrivacy: React.FC = () => {
               <section>
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">10. Your Privacy Rights</h2>
                 <p className="text-gray-700 mb-4">
-                  Depending on your jurisdiction, you may have the right to:
+                  You may contact us at <span className="font-medium">privacy@hellofavors.com</span> to:
                 </p>
                 <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
-                  <li><span className="font-semibold">Access:</span> Request a copy of the personal data we hold about you.</li>
-                  <li><span className="font-semibold">Correction:</span> Request correction of inaccurate information.</li>
-                  <li><span className="font-semibold">Deletion:</span> Request deletion of your account and associated personal data (see Section 9).</li>
-                  <li><span className="font-semibold">Portability:</span> Request your workout data in a portable format.</li>
-                  <li><span className="font-semibold">Objection or Restriction:</span> Object to or request restriction of certain data processing activities.</li>
+                  <li>Request a summary of the personal data we hold about you</li>
+                  <li>Request correction of inaccurate information</li>
+                  <li>Request deletion of your account and associated personal data (see Section 9)</li>
                 </ul>
                 <p className="text-gray-700">
-                  To exercise any of these rights, contact us at <span className="font-medium">privacy@hellofavors.com</span>.
+                  <span className="font-semibold">California residents (CCPA):</span> California residents have the right to know what categories of personal information we collect and with whom we share it, and to request deletion. We do not sell personal information. To exercise California privacy rights, contact us at <span className="font-medium">privacy@hellofavors.com</span>.
                 </p>
               </section>
 
@@ -218,7 +219,7 @@ const GhostWorkoutPrivacy: React.FC = () => {
               <section>
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">11. Children's Privacy</h2>
                 <p className="text-gray-700">
-                  Ghost Workout is not intended for children under 13 (or the applicable age of digital consent in your jurisdiction). We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us at <span className="font-medium">privacy@hellofavors.com</span> and we will delete it promptly.
+                  Ghost Workout is not intended for children under 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us at <span className="font-medium">privacy@hellofavors.com</span> and we will delete it promptly.
                 </p>
               </section>
 
@@ -247,22 +248,12 @@ const GhostWorkoutPrivacy: React.FC = () => {
                 </p>
               </section>
 
-              {/* 13. International Data Transfers */}
+              {/* 13. Data Location */}
               <section>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">13. International Data Transfers</h2>
-                <p className="text-gray-700 mb-4">
-                  Your data is stored and processed in the United States. If you are located outside the United States, your information will be transferred to and processed in the U.S. We rely on standard contractual safeguards and service provider agreements to protect data transferred internationally.
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">13. Data Location</h2>
+                <p className="text-gray-700">
+                  Your data is stored and processed in the United States on servers operated by our infrastructure providers (Fly.io, backed by Supabase/PostgreSQL). Ghost Workout is currently intended for users in the United States.
                 </p>
-                <div className="grid md:grid-cols-2 gap-4">
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-gray-900 mb-2">European Union (GDPR)</h4>
-                    <p className="text-gray-700 text-sm">EU residents have rights including data access, portability, and erasure. Contact us at privacy@hellofavors.com to exercise these rights.</p>
-                  </div>
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-gray-900 mb-2">California (CCPA)</h4>
-                    <p className="text-gray-700 text-sm">California residents have the right to know what personal information we collect, request deletion, and opt out of any sale of personal information. We do not sell personal information.</p>
-                  </div>
-                </div>
               </section>
 
               {/* 14. Changes to This Privacy Policy */}

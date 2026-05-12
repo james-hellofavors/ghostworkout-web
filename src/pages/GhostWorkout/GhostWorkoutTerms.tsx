@@ -24,8 +24,11 @@ const GhostWorkoutTerms: React.FC = () => {
                 <p className="text-gray-700 mb-4">
                   Welcome to Ghost Workout ("Service"). These Terms of Service ("Terms") govern your use of the Service operated by Hello Favors, LLC ("we," "us," or "our"), including our website at ghostworkout.com and our mobile application.
                 </p>
-                <p className="text-gray-700">
+                <p className="text-gray-700 mb-4">
                   By accessing or using the Service, you agree to be bound by these Terms. If you disagree with any part of the Terms, you may not access or use the Service.
+                </p>
+                <p className="text-gray-700">
+                  Ghost Workout is currently intended for users in the United States. We may update these Terms if we expand availability to additional jurisdictions.
                 </p>
               </section>
 
@@ -224,7 +227,7 @@ const GhostWorkoutTerms: React.FC = () => {
               <section>
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">15. Governing Law and Venue</h2>
                 <p className="text-gray-700 mb-4">
-                  These Terms are governed by the laws of the State of California, United States, without regard to its conflict-of-law provisions, except where applicable mandatory law requires otherwise.
+                  These Terms are governed by the laws of the State of California, United States, without regard to its conflict-of-law provisions.
                 </p>
                 <p className="text-gray-700">
                   Any action or proceeding arising out of or relating to these Terms or the Service shall be brought exclusively in the state or federal courts located in Santa Clara County, California, and you hereby consent to the personal jurisdiction of those courts and waive any objection to venue in those courts.
