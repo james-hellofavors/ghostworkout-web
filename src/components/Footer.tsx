@@ -30,6 +30,7 @@ function Footer() {
       <nav className="footer-nav">
         <Link to="/terms-and-conditions">Terms &amp; Conditions</Link>
         <Link to="/privacy-policy">Privacy Policy</Link>
+        <Link to="/delete-account">Delete Account</Link>
       </nav>
     </footer>
   );
