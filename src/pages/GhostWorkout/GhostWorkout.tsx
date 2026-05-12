@@ -17,12 +17,12 @@ const GhostWorkout: React.FC = () => {
     >
       <Helmet>
         {/* Updated SEO and OG Tags for GhostWorkout */}
-        <title>GhostWorkout – Race Your Past Self & Train Smarter</title>
+        <title>Ghost Workout – Race Your Past Self & Train Smarter</title>
         <meta
           name="description"
           content="Improve your running and walking workouts by racing your ghost. Get personalized AI fitness coaching with a subscription. Coming soon!"
         />
-        <meta property="og:title" content="GhostWorkout – Outrun Your Limits" />
+        <meta property="og:title" content="Ghost Workout – Outrun Your Limits" />
         <meta
           property="og:description"
           content="The ultimate fitness app to track workouts, race your personal best 'ghost', and get AI-powered training advice. Launching soon!"
@@ -38,7 +38,7 @@ const GhostWorkout: React.FC = () => {
 
         {/* Title/Logo - Using text as placeholder, replace with img if you have a logo */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-center my-8 sm:my-12 text-shadow-lg"> {/* Added text shadow for better readability */}
-           GhostWorkout
+           Ghost Workout
         </h1>
         {/* If using an image logo instead:
         <img
@@ -55,7 +55,7 @@ const GhostWorkout: React.FC = () => {
             Ready to Outrun Your Limits?
           </h2>
           <p className="text-base md:text-lg text-gray-300 mb-6">
-            GhostWorkout helps you race your past performances and elevate your fitness journey.
+            Ghost Workout helps you race your past performances and elevate your fitness journey.
           </p>
 
           {/* --- Coming Soon Banner --- */}
@@ -83,7 +83,7 @@ const GhostWorkout: React.FC = () => {
             </div>
             <div className="flex-1 min-w-[150px] m-2">
               <span className="text-3xl md:text-4xl block mb-2" role="img" aria-label="Chat Bubble Icon">💬</span>
-              <p className="text-sm md:text-base font-medium">AI Fitness Coach (Sub)</p>
+              <p className="text-sm md:text-base font-medium">AI Reflection (Sub)</p>
             </div>
           </div>
 

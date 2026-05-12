@@ -26,7 +26,7 @@ function Footer() {
           <i className="fab fa-tiktok"></i>
         </a>
       </div>
-      <p>&copy; 2025 Hello Favors, LLC. All rights reserved.</p>
+      <p>&copy; 2026 Hello Favors, LLC. All rights reserved.</p>
       <nav className="footer-nav">
         <Link to="/terms-and-conditions">Terms &amp; Conditions</Link>
         <Link to="/privacy-policy">Privacy Policy</Link>
