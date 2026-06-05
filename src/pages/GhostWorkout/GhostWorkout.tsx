@@ -20,12 +20,12 @@ const GhostWorkout: React.FC = () => {
         <title>Ghost Workout – Race Your Past Self & Train Smarter</title>
         <meta
           name="description"
-          content="Improve your running and walking workouts by racing your ghost. Get personalized AI fitness coaching with a subscription. Coming soon!"
+          content="Race your past self. Ghost Workout turns every run and walk into a personal-best showdown — now available on Google Play."
         />
         <meta property="og:title" content="Ghost Workout – Outrun Your Limits" />
         <meta
           property="og:description"
-          content="The ultimate fitness app to track workouts, race your personal best 'ghost', and get AI-powered training advice. Launching soon!"
+          content="Race your past self. Ghost Workout turns every run and walk into a personal-best showdown — now available on Google Play."
         />
         {/* Update URL and Image when available */}
         <meta property="og:url" content="https://ghostworkout.com" /> {/* Placeholder URL */}
@@ -58,17 +58,35 @@ const GhostWorkout: React.FC = () => {
             Ghost Workout helps you race your past performances and elevate your fitness journey.
           </p>
 
-          {/* --- Coming Soon Banner --- */}
-          <div className="my-6 py-4 px-6 bg-gradient-to-r from-purple-600/80 via-indigo-600/80 to-blue-600/80 border border-indigo-400 rounded-lg shadow-md">
-            <p className="text-xl md:text-2xl font-bold text-white animate-pulse"> {/* Added pulse animation */}
-              🚀 COMING SOON! 🚀
-            </p>
-            <p className="text-base text-indigo-100 mt-2">
-              Get ready to challenge your ghost on iOS & Android.
-            </p>
-            {/* Optional: Add an email signup form here later if desired */}
+          {/* --- Download CTA --- */}
+          <div className="my-8 flex flex-col items-center gap-3">
+            <a
+              href="https://play.google.com/store/apps/details?id=com.hellofavors.ghostworkout"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Get Ghost Workout on Google Play"
+              className="inline-flex items-center gap-3 px-6 py-3 bg-black hover:bg-gray-900 border border-gray-600 rounded-lg shadow-lg transition transform hover:-translate-y-0.5"
+            >
+              {/* Google Play triangle mark */}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+                width="32"
+                height="32"
+                aria-hidden="true"
+              >
+                <path fill="#EA4335" d="M325.3 234.3 104.6 13l280.8 161.2-60.1 60.1z" />
+                <path fill="#FBBC04" d="M104.6 499 325.3 277.7l59.6 59.6L104.6 499z" />
+                <path fill="#4285F4" d="m385.4 337.3-59.7-59.7L499 256 385.4 337.3z" />
+                <path fill="#34A853" d="M104.6 13v486l220.7-221.3-220.7-264.7z" />
+              </svg>
+              <span className="text-left leading-tight">
+                <span className="block text-xs text-gray-300">GET IT ON</span>
+                <span className="block text-lg font-semibold text-white">Google Play</span>
+              </span>
+            </a>
           </div>
-          {/* --- End Coming Soon Banner --- */}
+          {/* --- End Download CTA --- */}
 
 
           {/* App Features - Adapted for GhostWorkout */}
