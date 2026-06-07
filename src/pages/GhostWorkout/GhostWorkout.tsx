@@ -35,7 +35,12 @@ const GhostWorkout: React.FC = () => {
     <div
       className="relative min-h-screen w-full flex flex-col items-center justify-start text-white font-sans"
       style={{
-        backgroundImage: "url('/futuristic_duel_at_dawn.png')",
+        // Dark overlay stacked on top of the artwork to keep hero copy and
+        // card text readable against the brighter parts of the painting
+        // (glowing runner / dawn highlights). Single background-image value
+        // — no extra overlay div needed.
+        backgroundImage:
+          "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/futuristic_duel_at_dawn.png')",
         backgroundSize: "cover",
         backgroundPosition: "center center",
         backgroundRepeat: "no-repeat",
@@ -128,7 +133,7 @@ const GhostWorkout: React.FC = () => {
             ].map((step) => (
               <li
                 key={step.n}
-                className="bg-gray-900/70 backdrop-blur-sm border border-gray-700 rounded-xl p-5 text-center"
+                className="bg-[rgba(8,12,24,0.85)] backdrop-blur-sm border border-gray-700 rounded-xl p-5 text-center"
               >
                 <div className="text-xs uppercase tracking-widest text-gray-400 mb-1">
                   Step {step.n}
@@ -179,7 +184,7 @@ const GhostWorkout: React.FC = () => {
             ].map((f) => (
               <div
                 key={f.title}
-                className="bg-gray-900/70 backdrop-blur-sm border border-gray-700 rounded-xl p-5"
+                className="bg-[rgba(8,12,24,0.85)] backdrop-blur-sm border border-gray-700 rounded-xl p-5"
               >
                 <h3 className="text-lg font-semibold text-white mb-2">
                   {f.title}
@@ -189,7 +194,7 @@ const GhostWorkout: React.FC = () => {
                 </p>
               </div>
             ))}
-            <div className="bg-gray-900/70 backdrop-blur-sm border border-gray-700 rounded-xl p-5 md:col-span-2">
+            <div className="bg-[rgba(8,12,24,0.85)] backdrop-blur-sm border border-gray-700 rounded-xl p-5 md:col-span-2">
               <div className="text-xs uppercase tracking-widest text-gray-400 mb-1">
                 Optional
               </div>
@@ -232,7 +237,7 @@ const GhostWorkout: React.FC = () => {
               <li key={href}>
                 <Link
                   to={href}
-                  className="inline-block px-3 py-1.5 bg-gray-900/70 border border-gray-700 hover:border-gray-500 rounded-full text-sm text-gray-200"
+                  className="inline-block px-3 py-1.5 bg-[rgba(8,12,24,0.85)] border border-gray-700 hover:border-gray-500 rounded-full text-sm text-gray-200"
                 >
                   {label}
                 </Link>

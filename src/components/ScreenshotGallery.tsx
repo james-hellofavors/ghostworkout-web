@@ -76,7 +76,7 @@ const ScreenshotGallery: React.FC = () => {
             className="flex flex-col items-center"
           >
             <div
-              className="aspect-[9/19.5] w-full bg-gray-900/70 border border-gray-700 rounded-2xl overflow-hidden flex items-center justify-center text-center"
+              className="aspect-[9/19.5] w-full bg-[rgba(8,12,24,0.85)] border border-gray-700 rounded-2xl overflow-hidden flex items-center justify-center text-center"
               data-screenshot-slot={i + 1}
             >
               {slot.src ? (

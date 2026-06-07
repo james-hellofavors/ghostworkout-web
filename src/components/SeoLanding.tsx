@@ -43,7 +43,11 @@ const SeoLanding: React.FC<SeoLandingProps> = ({
     <div
       className="relative min-h-screen w-full flex flex-col items-center justify-start text-white font-sans"
       style={{
-        backgroundImage: "url('/futuristic_duel_at_dawn.png')",
+        // Slightly stronger overlay than the homepage (0.6 vs 0.5) — SEO
+        // pages have denser body copy that needs to read against the
+        // bright runner/dawn highlights of the painting.
+        backgroundImage:
+          "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/futuristic_duel_at_dawn.png')",
         backgroundSize: "cover",
         backgroundPosition: "center center",
         backgroundRepeat: "no-repeat",
@@ -98,7 +102,7 @@ const SeoLanding: React.FC<SeoLandingProps> = ({
             {sections.map((s) => (
               <article
                 key={s.heading}
-                className="bg-gray-900/70 backdrop-blur-sm border border-gray-700 rounded-xl p-5"
+                className="bg-[rgba(8,12,24,0.85)] backdrop-blur-sm border border-gray-700 rounded-xl p-5"
               >
                 <h2 className="text-xl md:text-2xl font-semibold text-white mb-2">
                   {s.heading}

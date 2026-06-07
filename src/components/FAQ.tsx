@@ -77,7 +77,7 @@ const FAQ: React.FC<{ id?: string }> = ({ id = "faq" }) => {
         {baseFaqs.map((f, i) => (
           <details
             key={i}
-            className="bg-gray-900/70 backdrop-blur-sm border border-gray-700 rounded-lg p-4 open:border-gray-500"
+            className="bg-[rgba(8,12,24,0.85)] backdrop-blur-sm border border-gray-700 rounded-lg p-4 open:border-gray-500"
           >
             <summary className="cursor-pointer font-medium text-white text-base md:text-lg list-none">
               {f.q}
